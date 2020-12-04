@@ -1,0 +1,1 @@
+fromxml.dom.minidom # Parsing nessus results dom = parse ('input.nessus') # for each host in report file , it extracts information for host in dom.getElementsByTagName ('ReportHost'): ip = host.getAttribute('name')
